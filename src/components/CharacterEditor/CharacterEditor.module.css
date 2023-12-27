@@ -1,9 +1,14 @@
 .characterEditor {
   padding-top: 128px;
   padding-bottom: 64px;
+  max-width: 1024px;
+  margin-inline: auto;
+  isolation: isolate;
 }
 
 .maxWidthWrapper {
+  max-width: 65%;
+  margin-inline: 0;
 }
 
 .header {
@@ -24,7 +29,25 @@
 }
 
 .characterWrapper {
+  width: 35%;
+  position: fixed;
+  top: 128px;
+  right: 100px;
+  height: 70%;
+  min-height: 500px;
+  margin-inline: auto;
 }
 
 .controlColumn {
+  width: 77%;
+}
+
+.lightGrayBar {
+  position: fixed;
+  bottom: 0px;
+  padding: 0;
+  margin: 0;
+  background-color: hsl(195deg, 20%, 86%);
+  width: 100vw;
+  height: 40vh;
 }
