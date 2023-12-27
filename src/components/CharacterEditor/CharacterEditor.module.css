@@ -4,6 +4,7 @@
   max-width: 1024px;
   margin-inline: auto;
   isolation: isolate;
+  padding-inline: 20px;
 }
 
 .maxWidthWrapper {
